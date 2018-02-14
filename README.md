@@ -10,7 +10,7 @@ A project should have below basic information:
 - build command
 - clean command
 
-A corpus file is wrriten in YAML/JSON format, and it's data structure follows below specification:
+A corpus file is wrriten in YAML/JSON format, and it is a dictionary which key is the project name, and value is a dictionary of the given project's attributes. See below concrete specification:
 
 In YAML:
 
