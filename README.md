@@ -51,7 +51,7 @@ or in JSON:
 Motivation: During the work on my master thesis, I found running experiment and collecting results is a painful and tedious procedure. As a programmer, I naturely come up with this idea: "Why not let machine do the experiment and just give me the result as I desired?" Therefore I wish to have a util script that can automatically perform experiment and collect result. Here is a draft of the desire shape of that script:
 
 - Input:
-  - A configuration file, indicates (multiple) confugration setting of launching the tools (CF & CFI).
+  - A configuration file, indicates (multiple) configuration setting of launching the tools (CF & CFI).
     It would has a similar format like below:
  ```yaml
  # in yaml
