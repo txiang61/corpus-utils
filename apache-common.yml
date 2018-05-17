@@ -1,0 +1,174 @@
+projects:
+- name: commons-lang
+  giturl: https://github.com/opprop-benchmarks/commons-lang.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-io
+  giturl: https://github.com/opprop-benchmarks/commons-io.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-collections
+  giturl: https://github.com/opprop-benchmarks/commons-collections.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-dbcp
+  giturl: https://github.com/opprop-benchmarks/commons-dbcp.git
+  build: mvn install
+  clean: mvn clean
+- name: commons-csv
+  giturl: https://github.com/opprop-benchmarks/commons-csv.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-pool
+  giturl: https://github.com/opprop-benchmarks/commons-pool.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-dbutils
+  giturl: https://github.com/opprop-benchmarks/commons-dbutils.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-codec
+  giturl: https://github.com/opprop-benchmarks/commons-codec.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-compress
+  giturl: https://github.com/opprop-benchmarks/commons-compress.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-beanutils
+  giturl: https://github.com/opprop-benchmarks/commons-beanutils.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-imaging
+  giturl: https://github.com/opprop-benchmarks/commons-imaging.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-cli
+  giturl: https://github.com/opprop-benchmarks/commons-cli.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-net
+  giturl: https://github.com/opprop-benchmarks/commons-net.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-fileupload
+  giturl: https://github.com/opprop-benchmarks/commons-fileupload.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-vfs
+  giturl: https://github.com/opprop-benchmarks/commons-vfs.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-logging
+  giturl: https://github.com/opprop-benchmarks/commons-logging.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-validator
+  giturl: https://github.com/opprop-benchmarks/commons-validator.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-text
+  giturl: https://github.com/opprop-benchmarks/commons-text.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-configuration
+  giturl: https://github.com/opprop-benchmarks/commons-configuration.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-email
+  giturl: https://github.com/opprop-benchmarks/commons-email.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-bcel
+  giturl: https://github.com/opprop-benchmarks/commons-bcel.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-jcs
+  giturl: https://github.com/opprop-benchmarks/commons-jcs.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-crypto
+  giturl: https://github.com/opprop-benchmarks/commons-crypto.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-jexl
+  giturl: https://github.com/opprop-benchmarks/commons-jexl.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-exec
+  giturl: https://github.com/opprop-benchmarks/commons-exec.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-rdf
+  giturl: https://github.com/opprop-benchmarks/commons-rdf.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-ognl
+  giturl: https://github.com/opprop-benchmarks/commons-ognl.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-jxpath
+  giturl: https://github.com/opprop-benchmarks/commons-jxpath.git
+  build: mvn install
+  clean: mvn clean
+- name: commons-daemon
+  giturl: https://github.com/opprop-benchmarks/commons-daemon.git
+  build: mvn install
+  clean: mvn clean
+- name: commons-chain
+  giturl: https://github.com/opprop-benchmarks/commons-chain.git
+  build: mvn install
+  clean: mvn clean
+- name: commons-functor
+  giturl: https://github.com/opprop-benchmarks/commons-functor.git
+  build: mvn install
+  clean: mvn clean
+- name: commons-scxml
+  giturl: https://github.com/opprop-benchmarks/commons-scxml.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-digester
+  giturl: https://github.com/opprop-benchmarks/commons-digester.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-proxy
+  giturl: https://github.com/opprop-benchmarks/commons-proxy.git
+  build: mvn install
+  clean: mvn clean
+
+  giturl: https://github.com/opprop-benchmarks/commons-bsf.git
+  build: mvn install
+  clean: mvn clean
+
+- name: commons-numbers
+  giturl: https://github.com/opprop-benchmarks/commons-numbers.git
+  build: mvn install
+  clean: mvn clean
