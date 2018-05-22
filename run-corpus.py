@@ -14,7 +14,7 @@ def main(argv):
     parser.add_argument('--executable', dest='executable', required=True)
     args = parser.parse_args()
 
-    tool_excutable = args.executable
+    tool_excutable = os.path.abspath(args.executable)
 
     corpus_name = os.path.splitext(os.path.basename(args.corpus_file))[0]
     corpus_dir = os.path.dirname(os.path.abspath(args.corpus_file))
