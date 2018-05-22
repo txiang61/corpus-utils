@@ -46,7 +46,26 @@ or in JSON:
 }
 ```
 
+### Run corpus util script
+`run-corpus.py` is a util script that helps you running your tool on a benchmark defined by a benchmark file.
 
+Given a benchmark file, it fetching the projects in benchmark into your local machine, and then running your tool on these projects.
+
+Usage:
+
+```
+run-corpus.py --corpus-file <your-benchmark-file> --executable <path-to-your-executable>
+```
+
+By running above command, it will fetching all projects in the benchmark file into a directory named as same as your benchamrk file name (e.g. into a dir named `xxx-corpus` if your corpus file name is `xxx-corpus.yml`). This directory will also located under the same directory where your benchmark file located in. Then it will running your tool on these projects.
+
+An example of running this script:
+
+```
+run-corpus.py --corpus-file my-corpus.yml --executable jsr308/ReadChecker/run-dljc.sh
+```
+
+### TODO Works
 #### Ideas on running experiment util
 Motivation: During the work on my master thesis, I found running experiment and collecting results is a painful and tedious procedure. As a programmer, I naturely come up with this idea: "Why not let machine do the experiment and just give me the result as I desired?" Therefore I wish to have a util script that can automatically perform experiment and collect result. Here is a draft of the desire shape of that script:
 
